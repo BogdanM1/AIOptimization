@@ -1,0 +1,10 @@
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\bin\Release\AIOptimization.exe
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\bin\Release\AIOptimization.pdb
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Release\AIOptimization.exe
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Release\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Release\AIOptimization.exe
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Release\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\bin\Release\AIOptimization.exe
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\bin\Release\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Release\ResolveAssemblyReference.cache

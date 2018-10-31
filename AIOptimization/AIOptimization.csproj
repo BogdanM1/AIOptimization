@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F99B6A1E-CAC9-4E72-BC8B-B8891090C768}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIOptimization</RootNamespace>
+    <AssemblyName>AIOptimization</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Evaluator.cs" />
+    <Compile Include="Algorithms\MO\Archive.cs" />
+    <Compile Include="Algorithms\MO\eMOABCArchive.cs" />
+    <Compile Include="Algorithms\MO\epsMOABC.cs" />
+    <Compile Include="Algorithms\MO\epsEvaluator.cs" />
+    <Compile Include="Algorithms\MO\MMOABC.cs" />
+    <Compile Include="Algorithms\MO\MMOABCArchive.cs" />
+    <Compile Include="Algorithms\SearchOperator.cs" />
+    <Compile Include="Algorithms\PopulationOptimizationAlgorithm.cs" />
+    <Compile Include="Algorithms\SO\ABC.cs" />
+    <Compile Include="Algorithms\SO\ABCDE.cs" />
+    <Compile Include="Algorithms\SO\ABCDEOperator.cs" />
+    <Compile Include="Algorithms\SO\GBA.cs" />
+    <Compile Include="Algorithms\SO\GBAOperator.cs" />
+    <Compile Include="Algorithms\SO\SOEvaluator.cs" />
+    <Compile Include="Algorithms\SO\ABCOperator.cs" />
+    <Compile Include="DominationRelations\DominationRelations.cs" />
+    <Compile Include="ExternalScripts\RScripts.cs" />
+    <Compile Include="PerformanceIndicators\MO\IndicatorWithReferentSet.cs" />
+    <Compile Include="PerformanceIndicators\IndicatorPrinter.cs" />
+    <Compile Include="PerformanceIndicators\MO\AdditiveEpsilon.cs" />
+    <Compile Include="PerformanceIndicators\MO\Hypervolume.cs" />
+    <Compile Include="PerformanceIndicators\Normalizer.cs" />
+    <Compile Include="PerformanceIndicators\PerformanceIndicator.cs" />
+    <Compile Include="PerformanceIndicators\SO\PositionDiversityIndicator.cs" />
+    <Compile Include="Population\PopulationPrinter.cs" />
+    <Compile Include="Population\Solution.cs" />
+    <Compile Include="Problem\TestProblems\MO\Fonseca.cs" />
+    <Compile Include="Problem\TestProblems\MO\Kursawe.cs" />
+    <Compile Include="Problem\TestProblems\MO\Schaffer1.cs" />
+    <Compile Include="Problem\TestProblems\MO\Schaffer2.cs" />
+    <Compile Include="Problem\ProblemRunner.cs" />
+    <Compile Include="Problem\TestProblems\MO\ZDT1.cs" />
+    <Compile Include="Problem\TestProblems\MO\ZDT3.cs" />
+    <Compile Include="Problem\TestProblems\runBenchmarks.cs" />
+    <Compile Include="Problem\TestProblems\SO\Ackley.cs" />
+    <Compile Include="Problem\TestProblems\SO\Baele.cs" />
+    <Compile Include="Problem\Problem.cs" />
+    <Compile Include="Problem\TestProblems\SO\Bukin.cs" />
+    <Compile Include="Problem\TestProblems\SO\Levi.cs" />
+    <Compile Include="Problem\TestProblems\SO\Rastrigin.cs" />
+    <Compile Include="Problem\TestProblems\SO\Rosenbrock.cs" />
+    <Compile Include="Problem\TestProblems\SO\Sphere.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random\RandomGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExternalScripts\drawIndicators.R" />
+    <None Include="ExternalScripts\drawPopulation.R" />
+    <None Include="ExternalScripts\drawingFunctions.R" />
+    <None Include="ExternalScripts\supportingStructures.R" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

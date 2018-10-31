@@ -1,0 +1,25 @@
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\bin\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\bin\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\AIOptimization\AIOptimization\obj\Debug\AIOptimization.pdb
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\bin\Debug\AIOptimization.exe
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\bin\Debug\AIOptimization.pdb
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Debug\AIOptimization.exe
+C:\Users\Ivan\Desktop\AIOptimization\AIOptimization\obj\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\t\AIOptimization\AIOptimization\obj\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\t\AIOptimization\AIOptimization\obj\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\t\AIOptimization\AIOptimization\bin\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\t\AIOptimization\AIOptimization\bin\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\t\AIOptimization\AIOptimization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bogdan\Desktop\New folder\AIOptimization\AIOptimization\obj\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\New folder\AIOptimization\AIOptimization\obj\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\New folder\AIOptimization\AIOptimization\bin\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\New folder\AIOptimization\AIOptimization\bin\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\New folder\AIOptimization\AIOptimization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bogdan\Desktop\Newfolder\AIOptimization\AIOptimization\obj\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\Newfolder\AIOptimization\AIOptimization\obj\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\Newfolder\AIOptimization\AIOptimization\bin\Debug\AIOptimization.exe
+C:\Users\Bogdan\Desktop\Newfolder\AIOptimization\AIOptimization\bin\Debug\AIOptimization.pdb
+C:\Users\Bogdan\Desktop\Newfolder\AIOptimization\AIOptimization\obj\Debug\ResolveAssemblyReference.cache
